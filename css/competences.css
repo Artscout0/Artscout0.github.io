@@ -1,0 +1,22 @@
+main ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main li {
+    display: block;
+
+    min-width: 100px;
+    min-height: 100px;
+
+    box-shadow: 5px 5px 5px rgba(218, 165, 32, 1);
+    border: 2px solid rgba(218, 165, 32, 1);
+    border-radius: 5px;
+}
+
+main li a {
+    margin: auto;
+}
