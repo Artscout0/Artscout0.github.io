@@ -18,5 +18,8 @@ main li {
 }
 
 main li a {
-    margin: auto;
+    display: inline-block;
+    /* float:left;  remove */
+    margin: 10px 10px 0 0;
+    padding: 5px 10px
 }
